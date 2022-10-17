@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D192A644-C823-45FC-9B55-709CBA9E847C}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{D192A644-C823-45FC-9B55-709CBA9E847C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Bass_EQ" ID="{7B4A2402-75A4-4E67-8702-FFD684E0FD09}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3"/>
+				<Effect Name="New_Wwise_Delay" ID="{98BE464B-9FAE-4B7C-AADD-46A5AEB1FB44}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
+				<Effect Name="New_Wwise_Peak_Limiter" ID="{F26B5D44-991A-4A35-AEF5-9AE2034ED786}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

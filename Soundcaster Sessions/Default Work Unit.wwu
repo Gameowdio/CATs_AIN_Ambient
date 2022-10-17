@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3D71AB2C-6CE9-4860-9083-83F1BC6A568D}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{3D71AB2C-6CE9-4860-9083-83F1BC6A568D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{B6DA7586-C95E-401D-BBE2-8AEB71787395}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="AMB_Forest" ID="{44FA6C4A-31B9-407D-8679-B68F1A237957}" WorkUnitID="{EF8A6207-6A69-4733-9ABE-504E13BBA18C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DayNightBlend" ID="{7E093840-5686-47BF-AF6D-C43EFF153401}" WorkUnitID="{F05F73EB-E45D-4CF4-99CD-8171D858EE75}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Animals" ID="{3DACC8E7-35B8-46C6-B2EC-71376A9730B7}" WorkUnitID="{F05F73EB-E45D-4CF4-99CD-8171D858EE75}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TimeOfDay" ID="{34DB59D2-DCFA-401E-B13D-5C3543905752}"/>
+							<Value>3.07456209084369E-313</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Altitude" ID="{0D0BA363-7121-48A3-A5EE-F33750621CE3}"/>
+							<Value>10.2362204724409</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

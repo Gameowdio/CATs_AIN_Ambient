@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B214A4A-8CDA-4F52-B4C1-B1DB5525C0DF}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{9B214A4A-8CDA-4F52-B4C1-B1DB5525C0DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{96A316B2-3068-41FC-A2C3-3A8DAAC48A63}" WorkUnitID="{6D81D81A-7468-45AB-8167-DFE00EFDA7AF}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="New_Wwise_Peak_Limiter" ID="{F26B5D44-991A-4A35-AEF5-9AE2034ED786}" WorkUnitID="{D192A644-C823-45FC-9B55-709CBA9E847C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{C6FB4D45-5480-40B1-A893-B45D1B93BA29}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SFX" ID="{FAE7BA82-9CB3-4A66-B179-D89E8F1FC0AA}">
+							<ChildrenList>
+								<Bus Name="2D_AMB" ID="{AA7CC9B4-3EDC-4005-89F5-2CD5EB7CC1BA}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="3D_AMB" ID="{57E8CBF6-21E6-4C8B-B249-F91A6AE6E639}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="5"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
